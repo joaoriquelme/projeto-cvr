@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    margin: -8px -8px 0px -8px;
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+}
+
+#banner {
+    background-image: url(assets/banner\ cvr.png);
+    background-repeat: no-repeat;
+    width: 1288px;
+    height: 100px;
+}
