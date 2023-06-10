@@ -9,6 +9,13 @@
 
 :root {
     --fonte-padrao: 'Inter', sans-serif;
+    --titulosection: #2B2B2B;
+    --navprincipal: #467566;
+    --cordobody: #F5F5F5;
+}
+
+body {
+    background-color: var(--cordobody);
 }
 
 header {
@@ -31,7 +38,7 @@ header {
 
 #nav1 {
     height: 53px;
-    background-color: #467566;
+    background-color: var(--navprincipal);
     font-family: var(--fonte-padrao);
     font-size: 13px;
     font-weight: normal;
@@ -155,4 +162,135 @@ main {
 
 #botaotopico:hover {
     background-color: #4f776aec;
+}
+
+section#noticias {
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 13px;
+    margin-left: 288px;
+    border: 1px solid red;
+}
+
+.titsec {
+   background-color: var(--titulosection);
+   color: #F3F6F4;
+   padding: 15px;
+   border-radius: 4px;
+   border-bottom-left-radius: 1px;
+   border-bottom-right-radius: 1px;
+   font-size: 16px;
+   margin-top: 1px;
+   margin-left: 1px;
+}
+
+span.spanbalao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #1265A1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 26px 0px 0px 15px;
+}
+
+.fa-comments {
+    color: #FFFFFF;
+}
+
+div.divbranca {
+    background-color: #FFFFFF;
+    border: 1px solid blue;
+    margin-top: -13px;
+    height: 102px;
+}
+
+div.divicon {
+    border: 1px solid red;
+    height: 101px;
+    width: 64px;
+}
+
+div.divbranca > div.divmeio h4 {
+    border: 1px solid green;
+    font-size: 18px;
+    width: 65px;
+    margin-left: 77px;
+    margin-top: -82px;
+}
+
+div.divbranca > div.divmeio p {
+    border: 1px solid darkmagenta;
+    color: #718096;
+    width: 110px;
+    font-size: 13px;
+    margin-left: 77px;
+    margin-top: -25px;
+}
+
+div.divmeio {
+    width: 949px;
+    border: 1px solid pink;
+}
+
+div.divposts {
+    border: 1px solid aquamarine;
+    width: 38px;
+    margin: -83px 0px 0px 950px;
+}
+
+div.divposts h4 {
+    color: #353C41;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0px 0px 0px 15px;
+}
+
+div.divposts p {
+    color: #718096;
+    font-size: 13px;
+    margin: 0px 0px 0px 1px;
+}
+
+div.divstatus {
+    border: 1px solid khaki;
+    width: 314px;
+    height: 100px;
+    margin: -61px 0px 0px 990px;
+}
+
+div.divstatus #avatar {
+    display: inline-block;
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    margin: 14px 0px 0px 22px;
+}
+
+#imagemavatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+div.divstatus h6 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: -43px 0px 0px 73px;
+}
+
+div.divstatus p {
+    font-size: 13px;
+    color: #718096;
+    margin: 2px 0px 0px 73px;
+}
+
+div.divstatus span.username {
+    color: #088A08;
+    font-size: 13px;
+    font-weight: bold;
 }
