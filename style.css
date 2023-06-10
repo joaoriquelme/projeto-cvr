@@ -169,7 +169,6 @@ section#noticias {
     width: 1308px;
     margin-top: 13px;
     margin-left: 288px;
-    border: 1px solid red;
 }
 
 .titsec {
@@ -202,43 +201,41 @@ span.spanbalao {
 
 div.divbranca {
     background-color: #FFFFFF;
-    border: 1px solid blue;
     margin-top: -13px;
     height: 102px;
 }
 
 div.divicon {
-    border: 1px solid red;
     height: 101px;
     width: 64px;
 }
 
 div.divbranca > div.divmeio h4 {
-    border: 1px solid green;
     font-size: 18px;
     width: 65px;
     margin-left: 77px;
     margin-top: -82px;
 }
 
+div.divmeio h4:hover {
+    color: #177EC9;
+}
+
 div.divbranca > div.divmeio p {
-    border: 1px solid darkmagenta;
     color: #718096;
     width: 110px;
     font-size: 13px;
     margin-left: 77px;
-    margin-top: -25px;
+    margin-top: -21px;
 }
 
 div.divmeio {
     width: 949px;
-    border: 1px solid pink;
 }
 
 div.divposts {
-    border: 1px solid aquamarine;
     width: 38px;
-    margin: -83px 0px 0px 950px;
+    margin: -41px 0px 0px 950px;
 }
 
 div.divposts h4 {
@@ -255,7 +252,6 @@ div.divposts p {
 }
 
 div.divstatus {
-    border: 1px solid khaki;
     width: 314px;
     height: 100px;
     margin: -61px 0px 0px 990px;
@@ -267,8 +263,7 @@ div.divstatus #avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid orangered;
-    margin: 14px 0px 0px 22px;
+    margin: 15px 0px 0px 22px;
 }
 
 #imagemavatar {
@@ -281,6 +276,10 @@ div.divstatus h6 {
     font-size: 14px;
     font-weight: normal;
     margin: -43px 0px 0px 73px;
+}
+
+.divstatus h6:hover {
+    color: #177EC9;
 }
 
 div.divstatus p {
