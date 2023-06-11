@@ -388,3 +388,65 @@ div#exibir > a {
 div#exibir > a:hover {
     color: #177EC9;
 }
+
+section#usersonline {
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 13px;
+    margin-left: 288px;
+}
+
+div.divbranca > a.users {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+section#generalstats {
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 13px;
+    margin-left: 288px;
+}
+
+.titgeneral {
+    font-size: 20px;
+    color: #353C41;
+    margin-bottom: 0px;
+}
+
+.pgeneral {
+    font-size: 13px;
+    color: #718096;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#pgeneral1 {
+    margin-left: 14px;
+}
+
+#pgeneral2 {
+    margin-left: 27px;
+}
+
+#pgeneral3 {
+    margin-left: 6px;
+}   
+
+#pgeneral4 {
+    margin-left: -29px;
+}
+
+#imagemdiv {
+    background-color: lightgray;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+#userimage {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
