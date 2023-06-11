@@ -206,6 +206,12 @@ div.divbranca {
     margin-bottom: 14px;
 }
 
+div.finais {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 4px 4px
+}
+
 div.divicon {
     height: 101px;
     width: 64px;
@@ -273,6 +279,14 @@ div.divstatus #avatar {
     border-radius: 50%;
 }
 
+#avatarcastiel {
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+}
+
 div.divstatus h6 {
     font-size: 14px;
     font-weight: normal;
@@ -293,4 +307,84 @@ div.divstatus span.username {
     color: #088A08;
     font-size: 13px;
     font-weight: bold;
+}
+
+section#infosup {
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 20px;
+    margin-left: 288px;
+}
+
+section#servidores{
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 20px;
+    margin-left: 288px;
+}
+
+section#outros {
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 20px;
+    margin-left: 288px;
+}
+
+.linksblue {
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.linksblue:hover {
+    color: #177EC9;
+}
+
+.linksblue::before {
+    content: '•';
+    color: #136eaf;
+    font-size: 2em;
+}
+
+section#aniversariantes {
+    font-family: var(--fonte-padrao);
+    width: 1308px;
+    margin-top: 13px;
+    margin-left: 288px;
+}
+
+a.aniversariantes {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+a.aniversariantes:hover {
+    color: #177EC9;
+}
+
+span.idade {
+    font-size: 14px;
+    color: #718096;
+}
+
+div#exibir {
+    background-color: #F0F0F0;
+    padding-top: 3px;
+    height: 45px;
+}
+
+div#exibir > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+div#exibir > a:hover {
+    color: #177EC9;
 }
