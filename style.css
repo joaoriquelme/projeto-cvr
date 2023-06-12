@@ -36,6 +36,15 @@ header {
     margin-left: 307px;
 }
 
+#iconfacebook {
+    background-color: white;
+    display: inline-block;
+    width: 27px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 15px 0px 0px 815px;
+}
+
 #nav1 {
     height: 53px;
     background-color: var(--navprincipal);
@@ -106,17 +115,17 @@ header {
     color: rgba(0, 0, 0, 0.842);
 }
 
-#section1 > a {
+.section1 > a {
     text-decoration: none;
     color: #7180969f;
 }
 
-#section1 > a:hover {
+.section1 > a:hover {
     text-decoration: none;
     color: #718096;
 }
 
-#section1 {
+.section1 {
     font-family: var(--fonte-padrao);
     font-size: 13px;
 }
@@ -407,6 +416,7 @@ section#generalstats {
     width: 1308px;
     margin-top: 13px;
     margin-left: 288px;
+    margin-bottom: 34px;
 }
 
 .titgeneral {
@@ -449,4 +459,37 @@ section#generalstats {
     width: 54px;
     height: 54px;
     border-radius: 50%;
+}
+
+#temaescuro {
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    color: #353C41;
+    margin: 0px 0px 0px 893px;
+    font-weight: normal;
+}
+
+#temaescuro:hover {
+    color: #177EC9;
+}
+
+footer {
+    margin: 0px -8px 1px -8px;
+    padding-bottom: 15px;
+}
+
+footer > p {
+    font-family: var(--fonte-padrao);
+    font-size: 12px;
+    color: #353c418c;
+    text-align: center;
+}
+
+.newspaper::before {
+
+}
+
+.check::before {
+
 }
