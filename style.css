@@ -102,6 +102,31 @@ div#bellmessage {
     font-size: 22px;
 }
 
+div#avatarname {
+    width: 200px;
+    height: 38px;
+    margin: -35px 0px 0px 1164px;
+}
+
+div#avatarname > #imgavatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin: 4px 0px 0px 1px;
+}
+
+#imgavatar > #avatarthomas {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+div#avatarname > p {
+    font-family: var(--fonte-padrao);
+    margin: -22px 0px 0px 34px;
+    width: 119px;
+}
+
 #nav1 {
     height: 53px;
     background-color: var(--navprincipal);
