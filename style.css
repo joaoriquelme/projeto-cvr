@@ -2,10 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
-    
-}
-
 
 :root {
     --fonte-padrao: 'Inter', sans-serif;
@@ -197,12 +193,12 @@ div#avatarname > p {
     color: rgba(0, 0, 0, 0.842);
 }
 
-.section1 > a {
+.section1  a {
     text-decoration: none;
     color: #7180969f;
 }
 
-.section1 > a:hover {
+.section1 a:hover {
     text-decoration: none;
     color: #718096;
 }
@@ -249,6 +245,7 @@ main {
     text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.623);
     padding-top: 14px;
     margin-top: 22px;
+    cursor: pointer;
 }
 
 #botaotopico:hover {
@@ -368,6 +365,7 @@ div.divstatus #avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #avatarcastiel {
@@ -376,12 +374,14 @@ div.divstatus #avatar {
     height: 100%;
     vertical-align: top;
     object-fit: cover;
+    cursor: pointer;
 }
 
 div.divstatus h6 {
     font-size: 14px;
     font-weight: normal;
     margin: -43px 0px 0px 73px;
+    cursor: pointer;
 }
 
 .divstatus h6:hover {
@@ -398,6 +398,7 @@ div.divstatus span.username {
     color: #088A08;
     font-size: 13px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 section#infosup {
@@ -487,6 +488,10 @@ section#usersonline {
     margin-left: 288px;
 }
 
+section#usersonline > div > a.users.black:hover {
+    color: #177EC9;
+}
+
 div.divbranca > a.users {
     font-size: 14px;
     text-decoration: none;
@@ -541,6 +546,7 @@ section#generalstats {
     width: 54px;
     height: 54px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #temaescuro {
@@ -566,4 +572,20 @@ footer > p {
     font-size: 12px;
     color: #353c418c;
     text-align: center;
+}
+
+.fa-solid.fa-angle-down {
+    color: rgba(243, 246, 244, 0.26);
+}
+
+.fa-solid.fa-angle-down:hover {
+    color: rgb(243, 246, 244);
+}
+
+.titsec.pointerclass:hover {
+    cursor: pointer;
+}
+
+.divmeio h4.pointerclass:hover {
+    cursor: pointer;
 }
