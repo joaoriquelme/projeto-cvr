@@ -5,9 +5,9 @@
 
 :root {
     --fonte-padrao: 'Inter', sans-serif;
-    --titulosection: #2B2B2B;
-    --navprincipal: #467566;
-    --cordobody: #F5F5F5;
+    --titulosection: rgb(33, 33, 33);
+    --navprincipal: #202020;
+    --cordobody: #181818;
 }
 
 body {
@@ -165,7 +165,7 @@ div#avatarname > p {
 
 #nav2 {
     height: 48px;
-    background-color: #FFFFFF;
+    background-color: #161616;
     box-shadow: 2px -2px 9px rgba(0, 0, 0, 0.247);
     font-family: var(--fonte-padrao);
     font-size: 13px;
@@ -178,29 +178,29 @@ div#avatarname > p {
 #nav2 > a {
     display: inline-block;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.562);
+    color: #aaaaaa9a;
     padding-top: 12px;
     padding-right: 32px;
     margin-top: 5px;
 }
 
 #nav2 > a#nav2bold {
-    color: black;
+    color: #AAAAAA;
     font-weight: bolder;
 }
 
 #nav2 > a.nav2normal:hover {
-    color: rgba(0, 0, 0, 0.842);
+    color: #AAAAAA;
 }
 
 .section1  a {
     text-decoration: none;
-    color: #7180969f;
+    color: #aaaaaace;
 }
 
 .section1 a:hover {
     text-decoration: none;
-    color: #718096;
+    color: #aaaaaa;
 }
 
 .section1 {
@@ -224,6 +224,7 @@ main {
 
 #h1principal {
     display: inline-block;
+    color: #AAAAAA;
     font-family: var(--fonte-padrao);
     font-size: 24px;
     margin-top: 56px;
@@ -233,7 +234,7 @@ main {
 
 #botaotopico {
     display: inline-block;
-    background-color: #4f776a;
+    background-color: #212121;
     width: 164px;
     height: 31px;
     border-radius: 5px;
@@ -249,7 +250,7 @@ main {
 }
 
 #botaotopico:hover {
-    background-color: #4f776aec;
+    background-color: #343434;
 }
 
 section#noticias {
@@ -261,7 +262,7 @@ section#noticias {
 
 .titsec {
    background-color: var(--titulosection);
-   color: #F3F6F4;
+   color: #AAAAAA;
    padding: 15px;
    border-radius: 4px;
    border-bottom-left-radius: 1px;
@@ -269,6 +270,10 @@ section#noticias {
    font-size: 16px;
    margin-top: 1px;
    margin-left: 1px;
+}
+
+h2.darkinvisible {
+    background-color: transparent;
 }
 
 span.spanbalao {
@@ -288,7 +293,7 @@ span.spanbalao {
 }
 
 div.divbranca {
-    background-color: #FFFFFF;
+    background-color: #212121;
     margin-top: -13px;
     height: 102px;
     margin-bottom: 14px;
@@ -306,6 +311,7 @@ div.divicon {
 }
 
 div.divbranca > div.divmeio h4 {
+    color: #AAAAAA;
     font-size: 18px;
     width: 65px;
     margin-left: 77px;
@@ -313,11 +319,11 @@ div.divbranca > div.divmeio h4 {
 }
 
 div.divmeio h4:hover {
-    color: #177EC9;
+    color: white;
 }
 
 div.divbranca > div.divmeio p {
-    color: #718096;
+    color: #AAAAAA;
     width: 110px;
     font-size: 13px;
     margin-left: 77px;
@@ -334,14 +340,14 @@ div.divposts {
 }
 
 div.divposts h4 {
-    color: #353C41;
+    color: #AAAAAA;
     font-weight: normal;
     font-size: 18px;
     margin: 0px 0px 0px 15px;
 }
 
 div.divposts p {
-    color: #718096;
+    color: #AAAAAA;
     font-size: 13px;
     margin: 0px 0px 0px 1px;
 }
@@ -378,6 +384,7 @@ div.divstatus #avatar {
 }
 
 div.divstatus h6 {
+    color: #AAAAAA;
     font-size: 14px;
     font-weight: normal;
     margin: -43px 0px 0px 73px;
@@ -385,12 +392,12 @@ div.divstatus h6 {
 }
 
 .divstatus h6:hover {
-    color: #177EC9;
+    color: white;
 }
 
 div.divstatus p {
     font-size: 13px;
-    color: #718096;
+    color: #AAAAAA;
     margin: 2px 0px 0px 73px;
 }
 
@@ -428,11 +435,11 @@ section#outros {
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
-    color: #000000;
+    color: #AAAAAA;
 }
 
 .linksblue:hover {
-    color: #177EC9;
+    color: white;
 }
 
 .linksblue::before {
@@ -461,24 +468,24 @@ a.aniversariantes:hover {
 
 span.idade {
     font-size: 14px;
-    color: #718096;
+    color: #AAAAAA;
 }
 
 div#exibir {
-    background-color: #F0F0F0;
+    background-color: #323232;
     padding-top: 3px;
     height: 45px;
 }
 
 div#exibir > a {
     text-decoration: none;
-    color: black;
+    color: #AAAAAA;
     font-size: 14px;
     font-weight: normal;
 }
 
 div#exibir > a:hover {
-    color: #177EC9;
+    color: white;
 }
 
 section#usersonline {
@@ -488,14 +495,18 @@ section#usersonline {
     margin-left: 288px;
 }
 
+p#onlines {
+    color: #AAAAAA;
+}
+
 section#usersonline > div > a.users.black:hover {
-    color: #177EC9;
+    color: white;
 }
 
 div.divbranca > a.users {
     font-size: 14px;
     text-decoration: none;
-    color: black;
+    color: #AAAAAA;
 }
 
 section#generalstats {
@@ -508,15 +519,19 @@ section#generalstats {
 
 .titgeneral {
     font-size: 20px;
-    color: #353C41;
+    color: #AAAAAA;
     margin-bottom: 0px;
 }
 
 .pgeneral {
     font-size: 13px;
-    color: #718096;
+    color: #AAAAAA;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.greysp {
+    color: #AAAAAA;
 }
 
 #pgeneral1 {
@@ -549,17 +564,52 @@ section#generalstats {
     cursor: pointer;
 }
 
+div#lightmode {
+    display: none;
+    width: 257px;
+    height: 77px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    box-shadow: 1px 1px 3px #0000005e;
+    background-color: #FFFFFF;
+    font-family: var(--fonte-padrao);
+    color: #177EC9;
+    border-radius: 4px;
+    margin: -98px auto 16px auto;
+}
+
+#input1 {
+    margin-top: 9px;
+    padding-bottom: 4px;
+}
+
+#input2 {
+    margin-top: -27px;
+}
+
+#ilightmode {
+    margin-right: 4px;
+}
+
+#idarkmode {
+    margin-right: 4px;
+}
+
 #temaescuro {
     text-decoration: none;
     font-family: var(--fonte-padrao);
     font-size: 14px;
-    color: #353C41;
-    margin: 0px 0px 0px 893px;
+    color: #AAAAAA;
+    margin: 0px 0px 0px 922px;
     font-weight: normal;
+    cursor: pointer;
+}
+
+#seta {
+    color: #AAAAAA;
 }
 
 #temaescuro:hover {
-    color: #177EC9;
+    color: white;
 }
 
 footer {
@@ -570,7 +620,7 @@ footer {
 footer > p {
     font-family: var(--fonte-padrao);
     font-size: 12px;
-    color: #353c418c;
+    color: #aaaaaa96;
     text-align: center;
 }
 
@@ -588,4 +638,12 @@ footer > p {
 
 .divmeio h4.pointerclass:hover {
     cursor: pointer;
+}
+
+.fa-newspaper {
+    color: #aaaaaace;
+}
+
+.fa-check {
+    color: #aaaaaace;
 }

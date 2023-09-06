@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="css-link" rel="stylesheet" href="lightmode.css">
     <link rel="shortcut icon" href="assets/lkicon.ico" type="image/x-icon">
     <title>Projeto CVR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -99,9 +99,9 @@
         <abbr title="Home" style="text-decoration: none;">
             <a href="#" id="secesq">Home</a>
         </abbr>
-        <i class="fa-regular fa-newspaper" style="color: #7180969f; margin-left: -38px;"></i>
+        <i class="fa-regular fa-newspaper" style="margin-left: -38px;"></i>
         <a href="#" id="secmid" class="newspaper">Todas Atividades</a>
-        <i class="fa-solid fa-check" style="margin-right: 0px; color: #7180969f;"></i>
+        <i class="fa-solid fa-check" style="margin-right: 0px;"></i>
         <abbr title="Marcar Como Lido" style="text-decoration: none;">
             <a href="#" class="check">Marcar como lido</a>
         </abbr>
@@ -773,7 +773,7 @@
     </section>
 
     <section id="aniversariantes">
-        <h2 class="titsec">
+        <h2 class="titsec darkinvisible">
             Aniversariantes de Hoje
         </h2>
         <div class="divbranca finais" style="padding: 10px 20px 0px 20px; height: 111px;">
@@ -791,9 +791,9 @@
     </section>
     
     <section id="usersonline">
-        <h2 class="titsec">
+        <h2 class="titsec darkinvisible">
             Quem Está Online
-            <p style="display: inline-block; color: #718096; font-size: 13px; margin: -1px 0px 0px 11px; font-weight: normal;">30 Members, 7 Anônimos, 77 Visitantes (lista completa)</p>
+            <p id="onlines" style="display: inline-block; font-size: 13px; margin: -1px 0px 0px 11px; font-weight: normal;">30 Members, 7 Anônimos, 77 Visitantes (lista completa)</p>
         </h2>
         <div class="divbranca finais" style="padding: 10px 20px 0px 20px; height: 88px;">
             <a href="#" class="users" style="color: #3098FF; font-weight: bold;">Thomas.Returns,</a>
@@ -836,7 +836,7 @@
         </div>
     </section>
     <section id="generalstats">
-        <h2 class="titsec">
+        <h2 class="titsec darkinvisible">
             General Statistics
         </h2>
         <div class="divbranca finais" style="padding: 10px 20px 0px 20px; height: 86px;">
@@ -860,9 +860,9 @@
                 <img id="userimage" src="assets/roberavatar.jpg" alt="Avatar Rober">
             </div>
             <div id="newuser" style="width: 155px; margin: -58px 0px 0px 950px;">
-                <p style="color: #718096; font-size: 12px; margin-bottom: 0px;">MEMBRO MAIS NOVO</p>
+                <p class="greysp" style="font-size: 12px; margin-bottom: 0px;">MEMBRO MAIS NOVO</p>
                 <p style="color: #9A2EFE; font-weight: bold; font-size: 14px; margin-top: 3px; margin-bottom: 3px; cursor: pointer;">Rober.</p>
-                <p style="color: #718096; font-size: 12px; margin-top: 0px;">Registro 11-06-2023 15:27</p>
+                <p class="greysp" style="font-size: 12px; margin-top: 0px;">Registro 11-06-2023 15:27</p>
             </div>
         </div>
     </section>
@@ -871,21 +871,39 @@
         <abbr title="Home" style="text-decoration: none;">
             <a href="#" id="secesq">Home</a>
         </abbr>
-        <i class="fa-regular fa-newspaper" style="color: #7180969f; margin-left: -38px;"></i>
+        <i class="fa-regular fa-newspaper" style="margin-left: -38px;"></i>
         <a href="#" id="secmid" class="newspaper">Todas Atividades</a>
-        <i class="fa-solid fa-check" style="margin-right: 0px; color: #7180969f;"></i>
+        <i class="fa-solid fa-check" style="margin-right: 0px;"></i>
         <abbr title="Marcar Como Lido" style="text-decoration: none;">
             <a href="#" class="check">Marcar como lido</a>
         </abbr>
     </section>
-    <a href="#" id="temaescuro">
-        Tema Escuro
-        <i class="fa-solid fa-caret-down" style="color: #010a18;"></i>
-    </a>
+
+    <div id="lightmode">
+        <p id="input1">
+            <input type="radio" name="lightmode" id="ilightmode" checked onclick="alternando2()">
+            <label for="light">Los Katchorros v1.5 (Padrão)</label>
+        </p>
+        
+        <br>
+
+        <p id="input2">
+            <input type="radio" name="lightmode" id="idarkmode" onclick="alternando()">
+            <label for="dark">Los Katchorros ( Escuro )</label>
+        </p>
+    </div>
+
+    <p id="temaescuro" onclick="darkmode()">
+        Tema
+        <i class="fa-solid fa-caret-down" id="seta"></i>
+    </p>
+
     <footer>
         <p>© Los Katchorros - Jogos Online<br>
         Powered by Invision Community</p>
     </footer>
     </main>
+
+    <script src="index.js"></script>
 </body>
 </html>
