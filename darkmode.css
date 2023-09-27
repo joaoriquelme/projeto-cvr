@@ -318,7 +318,7 @@ div.divbranca > div.divmeio h4 {
     margin-top: -82px;
 }
 
-div.divmeio h4:hover {
+div.divmeio h4.pointerclass:hover {
     color: white;
 }
 
